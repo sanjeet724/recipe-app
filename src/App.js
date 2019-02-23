@@ -37,14 +37,14 @@ class App extends Component {
           </header>
           <div className="main-container">
             <div className="recipe-container">
-              <h5>Select some recipes <i class="fas fa-hand-point-down"></i></h5>
+              <h5>Select some recipes <i className="fas fa-hand-point-down"></i></h5>
               <RecipeList recipes={recipes}
                 selectedRecipes={selectedRecipes}
                 handleCheckboxClick={this.handleRecipeSelection} />
             </div>
             {selectedRecipes.length > 0 &&
               <div className="ingredient-container">
-                <h5 className="ingredient-label">Ingredients <i class="fas fa-utensils"></i></h5>
+                <h5 className="ingredient-label">Ingredients <i className="fas fa-utensils"></i></h5>
                 <IngredientList selectedRecipes={selectedRecipes} />
               </div>
             }
