@@ -7,7 +7,7 @@ A react app which displays recipes and their ingredients. Currently there are no
 * Selecting a recipe(s), shows all the ingredients (unqiue) in an alphabetical order
 * De-selecting a recipe(s) hides the corresponding ingredients
 * The ingredient list is updated based on the user selection
-* If nothing is selected, we just see the recipe list
+* If nothing is selected, we only see the recipe list
 
 ## Libraries used
 * React for building the UI and managing state
