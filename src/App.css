@@ -34,6 +34,7 @@
 
 .ingredient-name {
   font-size: 12px; 
+  font-style : italic;
 }
 
 .ingredients-list {
