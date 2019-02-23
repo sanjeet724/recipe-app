@@ -1,3 +1,6 @@
+## Functinality
+A react app which displays some recipes and their ingredients
+
 ## Libraries used
 * React for building the UI and managing state
 * Bootstrap for CSS, styling and layouts
