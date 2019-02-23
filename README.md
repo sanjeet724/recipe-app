@@ -3,7 +3,8 @@ A react app which displays recipes and their ingredients. Currently there are no
 
 ## Features & Functionality
 * The recipes are shown in a list
-* User can select one or more recipe from the list
+* User can select one or more recipe from the list using a checkbox
+* Seleting a recipe, highlights the cell indicating a selection
 * Selecting a recipe(s), shows all the ingredients (unqiue) in an alphabetical order
 * De-selecting a recipe(s) hides the corresponding ingredients
 * The ingredient list is updated based on the user selection
