@@ -1,5 +1,5 @@
 ## About the app
-A react app which displays recipes and their ingredients. Currently there are no network calls and the data is read from a given json file.
+A react app which displays recipes and their ingredients. Currently there are no network calls and the data is read from a given json file. App is responsive i.e works on desktop browsers and mobile devices.
 
 ## Features & Functionality
 * The recipes are shown in a list
