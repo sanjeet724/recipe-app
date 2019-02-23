@@ -30,23 +30,25 @@ class App extends Component {
   render() {
     const { recipes, selectedRecipes } = this.state;
     return (
-      <div className="recipe-app">
-        <header className="header">
-          <h1>Recipe Builder</h1>
-        </header>
-        <div className="main-container">
-          <div className="recipe-container">
-            <h5>Select some recipes</h5>
-            <RecipeList recipes={recipes}
-              selectedRecipes={selectedRecipes}
-              handleCheckboxClick={this.handleRecipeSelection} />
-          </div>
-          {selectedRecipes.length > 0 &&
-            <div className="ingredient-container">
-              <h5 className="ingredient-label">Ingredients</h5>
-              <IngredientList selectedRecipes={selectedRecipes} />
+      <div className="container-fluid bg-light">
+        <div className="recipe-app">
+          <header className="header">
+            <h1>Recipe Builder <i className="fas fa-hamburger"></i></h1>
+          </header>
+          <div className="main-container">
+            <div className="recipe-container">
+              <h5>Select some recipes <i class="fas fa-hand-point-down"></i></h5>
+              <RecipeList recipes={recipes}
+                selectedRecipes={selectedRecipes}
+                handleCheckboxClick={this.handleRecipeSelection} />
             </div>
-          }
+            {selectedRecipes.length > 0 &&
+              <div className="ingredient-container">
+                <h5 className="ingredient-label">Ingredients <i class="fas fa-utensils"></i></h5>
+                <IngredientList selectedRecipes={selectedRecipes} />
+              </div>
+            }
+          </div>
         </div>
       </div>
     );
