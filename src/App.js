@@ -32,17 +32,18 @@ class App extends Component {
     return (
       <div className="recipe-app">
         <header className="header">
-          <h1>Recipe App</h1>
+          <h1>Recipe Builder</h1>
         </header>
         <div className="main-container">
           <div className="recipe-container">
-            <h4>Select a recipe</h4>
+            <h5>Select some recipes</h5>
             <RecipeList recipes={recipes}
+              selectedRecipes={selectedRecipes}
               handleCheckboxClick={this.handleRecipeSelection} />
           </div>
           {selectedRecipes.length > 0 &&
             <div className="ingredient-container">
-              <h4>Ingredients</h4>
+              <h5 className="ingredient-label">Ingredients</h5>
               <IngredientList selectedRecipes={selectedRecipes} />
             </div>
           }

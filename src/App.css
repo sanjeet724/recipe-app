@@ -24,6 +24,18 @@
   justify-content: flex-start;
 }
 
+.ingredient-label {
+  text-align: center;
+}
+
+.ingredient-name {
+  font-size: 12px; 
+}
+
+.ingredients-list {
+  max-height: 425px;
+  overflow-x: auto;
+}
 
 .badge-recipe {
   margin-right: 8px;

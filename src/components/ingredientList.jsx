@@ -17,7 +17,8 @@ const IngredientList = ({ selectedRecipes: recipes }) => {
         <div className="ingredients-list">
             <ul className="list-group">
                 {allIngredients.map((ing, i) =>
-                    <li key={i} className="list-group-item"><h6>{ing}</h6></li>
+                    <li key={i} className="list-group-item list-group-item-secondary">
+                        <div className="ingredient-name">{ing}</div></li>
                 )}
             </ul>
         </div>

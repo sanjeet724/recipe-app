@@ -1,10 +1,12 @@
 import React from 'react';
 
-const RecipeItem = ({ recipe, handleCheckboxClick }) => {
+const RecipeItem = ({ recipe, selectedRecipes: selected, handleCheckboxClick }) => {
     const { name, cook_time, type } = recipe;
     const mins = cook_time + " mins";
+    const isSelected = selected.includes(recipe);
+    const selectedCSS = isSelected ? "list-group-item list-group-item-info" : "list-group-item";
     return (
-        <div className="list-group-item">
+        <div className={selectedCSS}>
             <div className="recipe-list-item">
                 <input
                     type="checkbox"
