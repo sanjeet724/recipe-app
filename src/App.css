@@ -1,0 +1,38 @@
+.header {
+  text-align: center;
+}
+
+.recipe-app {
+  width: 80%;
+  margin: auto;
+}
+
+.main-container {
+  display: flex;
+}
+
+.recipe-container {
+  flex :2;
+}
+
+.ingredient-container {
+  flex: 1;
+}
+
+.recipe-list-item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.badge-recipe {
+  margin-right: 8px;
+}
+
+.recipe-name {
+  margin-right: 8px;
+}
+
+.check-box {
+  margin-right : 8px;
+}
