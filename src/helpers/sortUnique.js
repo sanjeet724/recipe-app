@@ -1,4 +1,9 @@
 export function sortUnique(items, property) {
+    // check if items is array
+    if (!Array.isArray(items)) {
+        return [];
+    }
+
     const res = [];
     // extract the unique values
     items.forEach(item => {
@@ -10,7 +15,7 @@ export function sortUnique(items, property) {
         });
     });
     // sort in alphabetical order
-    res.sort((a, b) => a.localeCompare(b));
+    res.sort((a, b) => a.toString().localeCompare(b.toString()));
 
     return res;
 }

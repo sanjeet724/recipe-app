@@ -15,6 +15,7 @@ class App extends Component {
     this.setState({ recipes: initialState });
   }
 
+  // event handler for the check-box
   handleRecipeSelection = (recipe, checked) => {
     const { selectedRecipes } = this.state;
     if (checked) {
@@ -42,7 +43,8 @@ class App extends Component {
                 selectedRecipes={selectedRecipes}
                 handleCheckboxClick={this.handleRecipeSelection} />
             </div>
-            {selectedRecipes.length > 0 &&
+            {
+              selectedRecipes.length > 0 &&
               <div className="ingredient-container">
                 <h5 className="ingredient-label">Ingredients <i className="fas fa-utensils"></i></h5>
                 <IngredientList selectedRecipes={selectedRecipes} />
