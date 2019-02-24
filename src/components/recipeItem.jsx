@@ -7,9 +7,10 @@ const RecipeItem = ({ recipe, selectedRecipes: selected, handleCheckboxClick }) 
     const selectedCSS = isSelected ? "list-group-item list-group-item-info" : "list-group-item";
     return (
         <div className={selectedCSS}>
-            <div className="recipe-list-item">
+            <li className="recipe-list-item">
                 <input
                     type="checkbox"
+                    value={name + "-check-box"}
                     onClick={(e) => handleCheckboxClick(recipe, e.target.checked)}
                     className="check-box"></input>
                 <h6 className="recipe-name">{name}</h6>
@@ -17,7 +18,7 @@ const RecipeItem = ({ recipe, selectedRecipes: selected, handleCheckboxClick }) 
                     <span className="badge badge-pill badge-secondary badge-recipe">{type}</span>
                     <span className="badge badge-pill badge-info">{mins}</span>
                 </h6>
-            </div>
+            </li>
         </div>
     );
 }

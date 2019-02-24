@@ -1,7 +1,6 @@
 import * as helpers from '../helpers/sortUnique';
 
 const sortFn = helpers.sortUnique;
-const testData = require('./testData.json');
 
 describe("function should be defined", () => {
 
@@ -12,6 +11,7 @@ describe("function should be defined", () => {
 
 describe("test the function", () => {
     it("should return unique values alphabetically sorted", () => {
+        const testData = require('./testData.json');
         const expected = [
             'abraham',
             'boyle',

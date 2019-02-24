@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component matches the snapshot 1`] = `
+<div
+  className="container-fluid bg-light"
+>
+  <div
+    className="recipe-app"
+  >
+    <header
+      className="header"
+    >
+      <h1>
+        Recipe Builder 
+        <i
+          className="fas fa-hamburger"
+        />
+      </h1>
+    </header>
+    <div
+      className="main-container"
+    >
+      <div
+        className="recipe-container"
+      >
+        <h5>
+          Select some recipes 
+          <i
+            className="fas fa-hand-point-down"
+          />
+        </h5>
+        <div
+          className="recipe-list"
+        >
+          <ul
+            className="list-group"
+          >
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Risotto-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Risotto
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Italian
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    60 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Enchiladas-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Enchiladas
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Mexican
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    50 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Hummus-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Hummus
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Middle Eastern
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    10 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Pancakes-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Pancakes
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Breakfast
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    25 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Borscht-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Borscht
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Russian
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    75 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Pierogi-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Pierogi
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Polish
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    105 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Pupusa-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Pupusa
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Salvadoran
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    40 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+            <div
+              className="list-group-item"
+            >
+              <li
+                className="recipe-list-item"
+              >
+                <input
+                  className="check-box"
+                  onClick={[Function]}
+                  type="checkbox"
+                  value="Fried Rice-check-box"
+                />
+                <h6
+                  className="recipe-name"
+                >
+                  Fried Rice
+                </h6>
+                <h6
+                  className="badges"
+                >
+                  <span
+                    className="badge badge-pill badge-secondary badge-recipe"
+                  >
+                    Chinese
+                  </span>
+                  <span
+                    className="badge badge-pill badge-info"
+                  >
+                    28 mins
+                  </span>
+                </h6>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
