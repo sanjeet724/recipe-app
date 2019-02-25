@@ -15,6 +15,9 @@ A react app which displays recipes and their ingredients. Currently there are no
 * Bootstrap for CSS, styling and layouts
 * Font awesome for fonts
 
+## Tests
+* Used test to add unit tests
+
 ## Installation and running instructions
 * npm install to setup the app
 * npm run start to run the app
